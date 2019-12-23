@@ -1,4 +1,4 @@
-name: pyqg_github
+name: pyqg_tlh
 channels:
 # for pyfftw
 #  - mforbes # old, doesn't support 3.5
@@ -13,6 +13,6 @@ dependencies:
   - pytest
   - future
   - pip:
-    - git+https://github.com/pyqg/pyqg@master
+    - git+https://github.com/tlhsieh/pyqg@master
     - codecov
     - pytest-cov
